@@ -17,6 +17,10 @@ p {
  background-color: sandybrown;
 }
 
+.map-tile__water {
+  background-color: turquoise;
+}
+
 .map-tile__city {
   background-color: gray;
 }
