@@ -17,6 +17,10 @@ p {
  background-color: sandybrown;
 }
 
+.map-tile__city {
+  background-color: gray;
+}
+
 .map-tile__grassy {
   display: block;
   background-color: palegoldenrod;
