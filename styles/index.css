@@ -5,9 +5,14 @@ body {
 #map {
   display: flex;
   flex-wrap: wrap;
+}
+
+#reader {
   position: absolute;
   top: 5vw;
   right: 5vw;
+  width: 200px;
+  text-align: right;
 }
 
 .map-tile {
