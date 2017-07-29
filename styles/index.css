@@ -1,20 +1,29 @@
-p {
+body {
   font-family: VT323;
 }
 
-#land {
+#map {
   display: flex;
   flex-wrap: wrap;
+  position: absolute;
+  top: 5vw;
+  right: 5vw;
 }
 
 .map-tile {
  display: block;
  height: 20px;
  width: 20px;
+ font-family: VT323;
+ color: red;
 }
 
 .map-tile__sandy {
  background-color: sandybrown;
+}
+
+.map-tile__treasure {
+  background-color: gold;
 }
 
 .map-tile__water {
@@ -28,4 +37,12 @@ p {
 .map-tile__grassy {
   display: block;
   background-color: palegoldenrod;
+}
+
+#show-map:hover {
+  color: red;
+}
+
+#map.not-showing {
+  display: none;
 }
