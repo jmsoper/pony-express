@@ -1,0 +1,28 @@
+{
+  "name": "pony-express",
+  "version": "1.0.0",
+  "description": "ponies.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmsoper/pony-express.git"
+  },
+  "keywords": [
+    "ponies",
+    "ponies",
+    "ponies"
+  ],
+  "author": "jmsoper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmsoper/pony-express/issues"
+  },
+  "homepage": "https://github.com/jmsoper/pony-express#readme",
+  "dependencies": {
+    "browserify": "^14.4.0",
+    "react": "^15.6.1"
+  }
+}
